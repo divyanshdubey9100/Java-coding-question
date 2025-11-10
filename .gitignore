@@ -1,0 +1,15 @@
+# .gitignore
+
+# Ignore Eclipse project files
+.metadata/
+.settings/
+.classpath
+.project
+
+# Ignore build output
+bin/
+target/
+
+# OS files
+.DS_Store
+Thumbs.db
