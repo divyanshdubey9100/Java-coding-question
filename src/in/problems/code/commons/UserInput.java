@@ -42,6 +42,7 @@ public class UserInput {
 	        System.out.println("Enter " + size + " integer values:");
 
 	        for (int i = 0; i < size; i++) {
+	        	System.out.print("Arr["+i+"] : ");
 	            array[i] = getIntegerInput();
 	        }
 	        return array;
