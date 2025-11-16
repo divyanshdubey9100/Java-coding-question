@@ -1,4 +1,4 @@
-package in.problems.code;
+package in.problems.code.corejava;
 
 import java.util.Arrays;
 import java.util.HashSet;

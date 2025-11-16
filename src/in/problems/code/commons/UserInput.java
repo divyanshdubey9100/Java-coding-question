@@ -1,6 +1,9 @@
 package in.problems.code.commons;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class UserInput {
 	
@@ -47,6 +50,18 @@ public class UserInput {
         }
         return array;
     }
+	
+	public static List<Integer> arrToListConversion(int[] arr){
+		System.out.println("Array Converted to List<Integer>: ");
+		return Arrays.stream(arr).boxed().collect(Collectors.toList());
+	}
+	
+	public static List<Integer> listUserInput(){
+		System.out.println("List userInput: ");
+		return Arrays.stream(getArrayInput())
+                .boxed()
+                .collect(Collectors.toList());
+	}
 	
 	
 }

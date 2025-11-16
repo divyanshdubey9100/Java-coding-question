@@ -1,4 +1,4 @@
-package in.problems.code;
+package in.problems.code.corejava;
 
 import in.problems.code.commons.UserInput;
 
