@@ -2,6 +2,7 @@ package in.problems.code.commons;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
@@ -61,6 +62,16 @@ public class UserInput {
 		return Arrays.stream(getArrayInput())
                 .boxed()
                 .collect(Collectors.toList());
+	}
+	
+	public static void traverseListOfIntegers(List<Integer> list) {
+		System.out.println("Traversing List<Integer>: ");
+		list.stream().forEach(System.out::println);
+	}
+	
+	public static void traverseMapOfIntegers(Map<Integer, Integer> map) {
+		System.out.println("Traversing Map<Integer, Integer>: ");
+		map.forEach((key,value)-> System.out.println(key + " = " + value));
 	}
 	
 	
