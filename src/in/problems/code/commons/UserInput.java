@@ -34,19 +34,19 @@ public class UserInput {
 		return sc.nextLong();
 	}
 	
-	  public static int[] getArrayInput() {
-	        System.out.print("Enter the size of the array: ");
-	        int size = getIntegerInput();
+	public static int[] getArrayInput() {
+        System.out.print("Enter the size of the array: ");
+        int size = getIntegerInput();
 
-	        int[] array = new int[size];
-	        System.out.println("Enter " + size + " integer values:");
+        int[] array = new int[size];
+        System.out.println("Enter " + size + " integer values:");
 
-	        for (int i = 0; i < size; i++) {
-	        	System.out.print("Arr["+i+"] : ");
-	            array[i] = getIntegerInput();
-	        }
-	        return array;
-	    }
+        for (int i = 0; i < size; i++) {
+        	System.out.print("Arr["+i+"] : ");
+            array[i] = getIntegerInput();
+        }
+        return array;
+    }
 	
 	
 }
