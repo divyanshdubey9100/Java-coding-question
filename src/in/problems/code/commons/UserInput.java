@@ -74,5 +74,34 @@ public class UserInput {
 		map.forEach((key,value)-> System.out.println(key + " = " + value));
 	}
 	
+	public static Map<Integer, Integer> mapUserInput() {
+	    Scanner sc = getUserInput();
+	    
+	    System.out.print("Enter number of entries in the Map: ");
+	    int size = sc.nextInt();
+
+	    Map<Integer, Integer> map = new java.util.HashMap<>();
+
+	    System.out.println("Enter " + size + " key-value pairs (Integer key and Integer value):");
+
+	    for (int i = 0; i < size; i++) {
+	        System.out.print("Key " + (i + 1) + ": ");
+	        int key = sc.nextInt();
+
+	        System.out.print("Value " + (i + 1) + ": ");
+	        int value = sc.nextInt();
+
+	        // Prevent overwriting if key already exists
+	        if (map.containsKey(key)) {
+	            System.out.println("⚠️ Key already exists! Overwriting the old value.");
+	        }
+
+	        map.put(key, value);
+	    }
+
+	    return map;
+	}
+
+	
 	
 }
