@@ -1,0 +1,263 @@
+
+## 🧠 **1. Core Java (20 Questions)**
+
+1. What are the main features of Java?
+2. What is the difference between JDK, JRE, and JVM?
+3. What is the difference between `==` and `.equals()`?
+4. What are access modifiers in Java?
+5. Explain the concept of OOPs in Java.
+6. What is the difference between an abstract class and an interface?
+7. Can we have a static method in an interface?
+8. What is the default value of local and instance variables?
+9. What is a constructor? What are its types?
+10. What is the difference between a constructor and a method?
+11. Can a constructor be final, static, or abstract?
+12. What is method overloading and overriding?
+13. What is the difference between `this` and `super` keywords?
+14. What is the difference between `String`, `StringBuilder`, and `StringBuffer`?
+15. What is immutability in Java?
+16. Why is Java platform-independent?
+17. What are wrapper classes in Java?
+18. What is autoboxing and unboxing?
+19. Explain `final`, `finally`, and `finalize()`.
+20. Difference between shallow copy and deep copy.
+
+---
+
+## 🧺 **2. Collections Framework (20 Questions)**
+
+21. What is the Java Collections Framework?
+22. Difference between `List`, `Set`, and `Map`.
+23. Difference between `ArrayList` and `LinkedList`.
+24. Difference between `HashSet` and `TreeSet`.
+25. Difference between `HashMap` and `Hashtable`.
+26. How does HashMap work internally?
+27. What is the initial capacity and load factor of HashMap?
+28. What happens if two keys have the same hashcode in a HashMap?
+29. How does `ConcurrentHashMap` differ from `HashMap`?
+30. Can we use a custom object as a key in a HashMap?
+31. What is `LinkedHashMap`?
+32. What is `WeakHashMap`?
+33. Difference between `Iterator` and `ListIterator`.
+34. What is the fail-fast and fail-safe iterator?
+35. Difference between `Comparable` and `Comparator`.
+36. How do you sort a list of custom objects in Java 8?
+37. What are the advantages of using Collections framework?
+38. How do you make a collection thread-safe?
+39. What are `EnumMap` and `EnumSet`?
+40. Difference between `Queue` and `Deque`.
+
+---
+
+## ⚡ **3. Java 8 Features (20 Questions)**
+
+41. What are the key features introduced in Java 8?
+42. What are lambda expressions?
+43. What is a functional interface?
+44. What are the built-in functional interfaces in Java 8?
+45. What is the Stream API in Java 8?
+46. What is the difference between `map()` and `flatMap()`?
+47. What is `Optional` in Java 8?
+48. How do you handle null values using `Optional`?
+49. What is a default method in an interface?
+50. What is a static method in an interface?
+51. What is the difference between intermediate and terminal operations in streams?
+52. How does lazy evaluation work in streams?
+53. How do you convert a list to a stream?
+54. How to collect results from a stream into a list or map?
+55. What is `Collectors.groupingBy()` used for?
+56. What is method reference in Java 8?
+57. What is the difference between `forEach()` and traditional loops?
+58. What is the difference between sequential and parallel streams?
+59. What is the use of `Predicate`, `Function`, and `Consumer` interfaces?
+60. How do you remove duplicates using streams?
+
+---
+
+## 🔄 **4. Multithreading & Concurrency (20 Questions)**
+
+61. What is multithreading in Java?
+62. Difference between process and thread.
+63. What are the states of a thread?
+64. What is the difference between `Runnable` and `Callable`?
+65. What is the purpose of `join()` and `sleep()` methods?
+66. What is synchronization in Java?
+67. Difference between synchronized method and block.
+68. What is a deadlock?
+69. How do you prevent deadlock?
+70. What are `wait()`, `notify()`, and `notifyAll()`?
+71. What is the difference between `volatile` and `synchronized`?
+72. What is the difference between `ExecutorService` and `Thread` class?
+73. How do you create a thread pool in Java?
+74. What is the difference between `submit()` and `execute()`?
+75. What is the difference between `Future` and `CompletableFuture`?
+76. What is `CountDownLatch`?
+77. What is `CyclicBarrier`?
+78. What is `Semaphore`?
+79. How do you handle concurrency in collections?
+80. What is `ThreadLocal` in Java?
+
+---
+
+## 🧩 **5. Exception Handling (10 Questions)**
+
+81. What is the difference between checked and unchecked exceptions?
+82. What is the base class for all exceptions?
+83. What is the difference between `throw` and `throws`?
+84. What happens when you catch an exception but don’t handle it?
+85. Can a `finally` block override a return statement?
+86. What is the purpose of custom exceptions?
+87. Can we have multiple catch blocks?
+88. Can we have `try` without `catch`?
+89. What is exception chaining?
+90. What is the difference between `Error` and `Exception`?
+
+---
+
+## 🌱 **6. Spring Core (20 Questions)**
+
+91. What is Spring Framework?
+92. What is Inversion of Control (IoC)?
+93. What is Dependency Injection (DI)?
+94. Difference between `@Component`, `@Service`, and `@Repository`.
+95. What is a Bean in Spring?
+96. What are Bean scopes in Spring?
+97. What is the use of `@Autowired` annotation?
+98. What is the difference between constructor and setter injection?
+99. What is the ApplicationContext?
+100. Difference between `BeanFactory` and `ApplicationContext`.
+101. What is the lifecycle of a Spring Bean?
+102. What is `@Qualifier`?
+103. What is the difference between `@Primary` and `@Qualifier`?
+104. What are profiles in Spring?
+105. How do you define beans using XML and Java config?
+106. What is `@Value` annotation used for?
+107. What are stereotypes in Spring?
+108. What are proxy beans?
+109. What is circular dependency?
+110. How do you handle circular dependencies in Spring?
+
+---
+
+## 🚀 **7. Spring Boot (20 Questions)**
+
+111. What is Spring Boot?
+112. How is it different from Spring Framework?
+113. What are Spring Boot starters?
+114. What is auto-configuration?
+115. How does Spring Boot auto-configuration work internally?
+116. What is `application.properties` / `application.yml`?
+117. What is the use of `@SpringBootApplication` annotation?
+118. What is the use of `CommandLineRunner`?
+119. How do you create REST APIs using Spring Boot?
+120. How do you handle exceptions in Spring Boot?
+121. What is the difference between `@RestController` and `@Controller`?
+122. How do you enable Swagger documentation?
+123. What is `@RequestMapping` and its types?
+124. What is `ResponseEntity`?
+125. How do you perform validation in Spring Boot?
+126. What are Spring Boot actuator endpoints?
+127. How do you change the default server port in Spring Boot?
+128. How do you connect Spring Boot to a database?
+129. What are `application.properties` profiles?
+130. How to create a custom starter in Spring Boot?
+
+---
+
+## 🧱 **8. Spring Data JPA / Hibernate (15 Questions)**
+
+131. What is JPA?
+132. What is the difference between JPA and Hibernate?
+133. What are entity annotations used for?
+134. What is the use of `@Id`, `@GeneratedValue`?
+135. What are the inheritance mapping strategies in JPA?
+136. What is lazy and eager loading?
+137. What is cascading in JPA?
+138. What are `@OneToMany` and `@ManyToOne` relationships?
+139. What is the `EntityManager`?
+140. How do you write custom queries using `@Query`?
+141. What is `CrudRepository` and `JpaRepository`?
+142. How do you handle transactions in Spring Boot?
+143. What is optimistic vs pessimistic locking?
+144. How to enable second-level cache in Hibernate?
+145. What is N+1 select problem in JPA?
+
+---
+
+## ☁️ **9. Microservices (20 Questions)**
+
+146. What is a microservice?
+147. Difference between monolithic and microservice architecture.
+148. What are the advantages of microservices?
+149. What is Spring Cloud?
+150. What is service discovery?
+151. What is Eureka Server?
+152. What is Feign Client?
+153. What is the difference between Feign Client and RestTemplate?
+154. What is API Gateway?
+155. What is Circuit Breaker pattern?
+156. How do you implement Circuit Breaker in Spring Boot?
+157. What is Hystrix?
+158. What is Spring Cloud Config Server?
+159. What is load balancing?
+160. How does Ribbon work?
+161. What is distributed tracing?
+162. What is Zipkin?
+163. How do you secure microservices?
+164. What are common challenges in microservices?
+165. How do you deploy microservices using Docker?
+
+---
+
+## 🧠 **10. Design Patterns (10 Questions)**
+
+166. What are design patterns?
+167. What is the Singleton pattern?
+168. What is Factory pattern?
+169. What is Builder pattern?
+170. What is Prototype pattern?
+171. What is Adapter pattern?
+172. What is Proxy pattern?
+173. What is Observer pattern?
+174. What is Strategy pattern?
+175. What is Dependency Injection pattern?
+
+---
+
+## 🗄 **11. Database & SQL (10 Questions)**
+
+176. What is normalization?
+177. What are joins in SQL?
+178. What is the difference between INNER JOIN and LEFT JOIN?
+179. What is indexing in SQL?
+180. How do you optimize slow SQL queries?
+181. What is the difference between `WHERE` and `HAVING`?
+182. What is a stored procedure?
+183. What is a trigger?
+184. What is ACID property in DBMS?
+185. What is transaction isolation level?
+
+---
+
+## 🧮 **12. System Design (10 Questions)**
+
+186. Design a URL shortener.
+187. Design an online hotel booking system.
+188. Design a RESTful microservice architecture.
+189. How would you design a notification service?
+190. Design a file upload service.
+191. Design an order management system.
+192. How do you handle API versioning?
+193. What is an event-driven architecture?
+194. What is CQRS pattern?
+195. How do you handle service-to-service communication?
+
+---
+
+## 💻 **13. Coding/Problem Solving (5 Questions)**
+
+196. Implement Two Sum problem.
+197. Reverse a linked list.
+198. Check if a number is a palindrome.
+199. Find longest common prefix among strings.
+200. Merge two sorted linked lists.

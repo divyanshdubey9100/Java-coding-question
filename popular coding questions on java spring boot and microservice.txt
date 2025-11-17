@@ -1,0 +1,425 @@
+### 🔹 Core Java
+
+1. Reverse a string
+2. Check palindrome number
+3. Find factorial using recursion
+4. Check prime number
+5. Generate Fibonacci series
+6. Find largest and smallest in array
+7. Reverse an array
+8. Find duplicate elements in array
+9. Remove duplicates from array
+10. Sort array without built-in methods
+11. Find missing number in array
+12. Count vowels and consonants
+13. Check anagram strings
+14. Count occurrences of characters
+15. Find first non-repeated character
+16. Swap two numbers without temp variable
+17. Reverse words in sentence
+18. Convert decimal to binary
+19. Find second largest number
+20. Find intersection of two arrays
+
+---
+
+### 🔹 Collections
+
+21. Sort list of integers
+22. Remove duplicates from list
+23. Convert list to map
+24. Find frequency of elements
+25. Sort map by values
+26. Merge two maps
+27. Iterate HashMap using entrySet
+28. Use Comparator to sort custom objects
+29. Implement custom HashMap
+30. Implement custom ArrayList
+
+---
+
+### 🔹 Strings
+
+31. Reverse string using recursion
+32. Find longest substring without repeating chars
+33. Check rotation of strings
+34. Find common prefix
+35. Implement string compression
+36. Count words in string
+37. Remove special characters
+38. Convert string to title case
+39. Find all permutations of string
+40. Find longest palindrome substring
+
+---
+
+### 🔹 Java 8 & Streams
+
+41. Filter even numbers from list
+42. Convert list of strings to uppercase
+43. Find max/min using streams
+44. Group employees by department
+45. Count occurrences using groupingBy
+46. Convert list to map using streams
+47. Sum integers using reduce
+48. Flatten list of lists
+49. Sort list with Comparator.comparing
+50. Remove duplicates using distinct
+
+---
+
+### 🔹 OOP & Design
+
+51. Implement Singleton pattern
+52. Implement Factory pattern
+53. Implement Builder pattern
+54. Implement Observer pattern
+55. Create custom immutable class
+56. Implement Comparable interface
+57. Override equals and hashCode
+58. Clone object deeply
+59. Use abstract class and interface together
+60. Demonstrate method overloading & overriding
+
+---
+
+### 🔹 Multithreading
+
+61. Create thread using Runnable
+62. Create thread using Thread class
+63. Implement producer-consumer problem
+64. Implement wait/notify example
+65. Use ReentrantLock
+66. Use ExecutorService
+67. Use Callable and Future
+68. Demonstrate synchronized block
+69. Avoid deadlock example
+70. Use CountDownLatch
+
+---
+
+### 🔹 Exception Handling
+
+71. Custom exception class
+72. Multiple catch blocks example
+73. try-with-resources example
+74. Exception chaining demo
+75. Throw vs throws usage
+
+---
+
+### 🔹 Data Structures
+
+76. Implement stack using array
+77. Implement queue using linked list
+78. Implement circular queue
+79. Implement priority queue
+80. Implement linked list
+81. Detect loop in linked list
+82. Find middle element of linked list
+83. Reverse linked list
+84. Merge two sorted linked lists
+85. Implement binary search
+86. Implement quick sort
+87. Implement merge sort
+88. Find kth largest element
+89. Implement binary tree traversal
+90. Check binary tree height
+
+---
+
+### 🔹 Algorithms
+
+91. Two Sum
+92. Move zeros to end
+93. Kadane’s algorithm (max subarray)
+94. Search in rotated array
+95. Rotate matrix by 90 degrees
+96. Spiral order matrix
+97. Find pairs with sum k
+98. Merge intervals
+99. Longest increasing subsequence
+100. Find missing number
+
+---
+
+### 🔹 Spring Boot / Microservices (Coding-focused)
+
+101. Create REST API in Spring Boot
+102. Implement CRUD using JPA
+103. Exception handling with @ControllerAdvice
+104. Validation using @Valid
+105. Pagination and sorting with JPA
+106. Logging with SLF4J
+107. Implement Feign client
+108. Connect two microservices via REST
+109. Implement Circuit Breaker (Resilience4j)
+110. API Gateway routing example
+
+---
+
+### 🔹 Advanced Java
+
+111. Serialize and deserialize object
+112. Read/write file using streams
+113. Read JSON using Jackson
+114. Parse XML using DOM parser
+115. Implement custom annotation
+116. Reflection API example
+117. Dynamic proxy implementation
+118. JDBC CRUD example
+119. Connection pooling example
+120. CallableStatement example
+
+---
+
+### 🔹 SQL & Database
+
+121. Write query for nth highest salary
+122. Find duplicates in table
+123. Join multiple tables
+124. Group employees by dept with count
+125. Delete duplicates from table
+126. Use window functions
+127. Optimize slow query
+128. Write stored procedure
+129. Use transactions
+130. Indexing demonstration
+
+---
+
+### 🔹 System Design Mini Tasks
+
+131. Design URL shortener
+132. Design e-commerce order system
+133. Design rate limiter
+134. Design notification service
+135. Design file upload service
+136. Design REST API versioning
+137. Design logging microservice
+138. Design config server
+139. Design authentication service
+140. Design message queue system
+
+---
+
+### 🔹 Logic & Patterns
+
+141. Print pyramid pattern
+142. Print Pascal’s triangle
+143. Diamond pattern
+144. Fibonacci triangle
+145. Number triangle pattern
+
+---
+
+### 🔹 Arrays & Matrix
+
+146. Transpose matrix
+147. Sum of diagonals
+148. Rotate array by k steps
+149. Find majority element
+150. Merge sorted arrays
+151. Find duplicates using hash set
+152. Move negative numbers left
+153. Count zeros in matrix
+154. Print boundary elements
+155. Search element in matrix
+
+---
+
+### 🔹 Miscellaneous
+
+156. Implement LRU cache
+157. Implement custom comparator
+158. Find median of two arrays
+159. Convert Roman to Integer
+160. Convert Integer to Roman
+161. Validate parentheses
+162. Longest valid parentheses
+163. Evaluate postfix expression
+164. Convert infix to postfix
+165. Implement Trie
+
+---
+
+### 🔹 Medium/Hard Practice
+
+166. Word break problem
+167. Subset sum
+168. Longest common subsequence
+169. Edit distance
+170. Coin change
+171. Sudoku solver
+172. N-Queens
+173. Topological sort
+174. Dijkstra’s algorithm
+175. Kruskal’s algorithm
+176. Detect cycle in graph
+177. BFS & DFS traversal
+178. Minimum spanning tree
+179. Shortest path in grid
+180. Matrix island count
+
+---
+
+### 🔹 Coding for Interviews (Popular)
+
+181. Merge K sorted lists
+182. Add two linked lists
+183. Clone linked list with random pointer
+184. Find intersection node
+185. Remove Nth node from end
+186. Detect palindrome linked list
+187. Flatten linked list
+188. Maximum product subarray
+189. Longest substring with k distinct chars
+190. Sliding window maximum
+191. Subarray sum equals K
+192. Next permutation
+193. Trapping rain water
+194. Set matrix zeros
+195. Minimum window substring
+196. Decode ways
+197. Find duplicate number
+198. Search in 2D matrix
+199. Serialize/deserialize binary tree
+200. Validate BST
+
+
+
+---
+
+## 🧮 **Arrays & Matrix (20)**
+
+1. Find missing number in array
+2. Find all pairs with a given sum
+3. Find subarray with given sum
+4. Move all zeros to the end
+5. Segregate 0s and 1s
+6. Find duplicates in array
+7. Find intersection of two arrays
+8. Rotate array by k elements
+9. Find maximum product subarray
+10. Find minimum swaps required to sort array
+11. Rearrange positive and negative numbers alternately
+12. Find equilibrium index
+13. Find leader elements in array
+14. Merge overlapping intervals
+15. Find maximum circular subarray sum
+16. Print spiral order of matrix
+17. Search element in 2D matrix
+18. Rotate matrix by 90 degrees
+19. Find kth smallest/largest element
+20. Count inversions in array
+
+---
+
+## 🔠 **Strings (20)**
+
+21. Reverse words in a sentence
+22. Check if two strings are anagrams
+23. Longest common prefix
+24. Find first non-repeated character
+25. Remove duplicate characters
+26. Find all substrings of a string
+27. Check balanced parentheses
+28. Find longest palindrome substring
+29. Check rotation of strings
+30. String compression (a2b1c5)
+31. Count vowels and consonants
+32. Find character frequency
+33. Remove all occurrences of a char
+34. Check if string contains digits only
+35. Longest substring without repeating chars
+36. Minimum window substring
+37. Group anagrams together
+38. Validate IP address
+39. Convert Roman to Integer
+40. Convert Integer to Roman
+
+---
+
+## 🔗 **Linked List (15)**
+
+41. Reverse a linked list
+42. Detect cycle in linked list
+43. Find start of loop in linked list
+44. Merge two sorted linked lists
+45. Remove duplicates from sorted linked list
+46. Find nth node from end
+47. Delete a node without head pointer
+48. Find middle element
+49. Check palindrome linked list
+50. Add two numbers represented by linked lists
+51. Flatten a multilevel linked list
+52. Sort a linked list
+53. Detect intersection of two linked lists
+54. Remove Nth node from end
+55. Clone a linked list with random pointers
+
+---
+
+## 🌳 **Trees & Binary Search Trees (15)**
+
+56. Inorder, preorder, postorder traversal
+57. Level order traversal
+58. Find height of binary tree
+59. Count leaf nodes
+60. Check if two trees are identical
+61. Find lowest common ancestor
+62. Check if binary tree is balanced
+63. Diameter of binary tree
+64. Convert binary tree to DLL
+65. Validate binary search tree
+66. Find kth smallest element in BST
+67. Find path sum in binary tree
+68. Mirror a binary tree
+69. Serialize and deserialize a tree
+70. Print boundary traversal of tree
+
+---
+
+## 🧵 **Stacks & Queues (10)**
+
+71. Implement stack using array
+72. Implement queue using linked list
+73. Implement two stacks in one array
+74. Next greater element
+75. Evaluate postfix expression
+76. Convert infix to postfix
+77. Implement min stack
+78. Implement LRU cache
+79. Sliding window maximum
+80. Circular queue implementation
+
+---
+
+## 🔁 **Recursion & Backtracking (10)**
+
+81. Print all permutations of a string
+82. Print all subsets of an array
+83. Generate valid parentheses combinations
+84. Solve N-Queens problem
+85. Sudoku solver
+86. Word search in matrix
+87. Rat in a maze problem
+88. Subset sum problem
+89. Tower of Hanoi
+90. Generate binary strings of length n
+
+---
+
+## 🔢 **Dynamic Programming (10)**
+
+91. Fibonacci using memoization
+92. Longest common subsequence
+93. Edit distance
+94. Coin change problem
+95. Longest increasing subsequence
+96. 0/1 Knapsack problem
+97. Minimum cost path in matrix
+98. Maximum product subarray
+99. Unique paths in grid
+100. House robber problem
+
