@@ -1,6 +1,10 @@
 package in.problems.code.commons;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class UserInput {
 	
@@ -34,19 +38,70 @@ public class UserInput {
 		return sc.nextLong();
 	}
 	
-	  public static int[] getArrayInput() {
-	        System.out.print("Enter the size of the array: ");
-	        int size = getIntegerInput();
+	public static int[] getArrayInput() {
+        System.out.print("Enter the size of the array: ");
+        int size = getIntegerInput();
 
-	        int[] array = new int[size];
-	        System.out.println("Enter " + size + " integer values:");
+        int[] array = new int[size];
+        System.out.println("Enter " + size + " integer values:");
 
-	        for (int i = 0; i < size; i++) {
-	        	System.out.print("Arr["+i+"] : ");
-	            array[i] = getIntegerInput();
+        for (int i = 0; i < size; i++) {
+        	System.out.print("Arr["+i+"] : ");
+            array[i] = getIntegerInput();
+        }
+        return array;
+    }
+	
+	public static List<Integer> arrToListConversion(int[] arr){
+		System.out.println("Array Converted to List<Integer>: ");
+		return Arrays.stream(arr).boxed().collect(Collectors.toList());
+	}
+	
+	public static List<Integer> listUserInput(){
+		System.out.println("List userInput: ");
+		return Arrays.stream(getArrayInput())
+                .boxed()
+                .collect(Collectors.toList());
+	}
+	
+	public static void traverseListOfIntegers(List<Integer> list) {
+		System.out.println("Traversing List<Integer>: ");
+		list.stream().forEach(System.out::println);
+	}
+	
+	public static void traverseMapOfIntegers(Map<Integer, Integer> map) {
+		System.out.println("Traversing Map<Integer, Integer>: ");
+		map.forEach((key,value)-> System.out.println(key + " = " + value));
+	}
+	
+	public static Map<Integer, Integer> mapUserInput() {
+	    Scanner sc = getUserInput();
+	    
+	    System.out.print("Enter number of entries in the Map: ");
+	    int size = sc.nextInt();
+
+	    Map<Integer, Integer> map = new java.util.HashMap<>();
+
+	    System.out.println("Enter " + size + " key-value pairs (Integer key and Integer value):");
+
+	    for (int i = 0; i < size; i++) {
+	        System.out.print("Key " + (i + 1) + ": ");
+	        int key = sc.nextInt();
+
+	        System.out.print("Value " + (i + 1) + ": ");
+	        int value = sc.nextInt();
+
+	        // Prevent overwriting if key already exists
+	        if (map.containsKey(key)) {
+	            System.out.println("⚠️ Key already exists! Overwriting the old value.");
 	        }
-	        return array;
+
+	        map.put(key, value);
 	    }
+
+	    return map;
+	}
+
 	
 	
 }
