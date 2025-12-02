@@ -1,4 +1,4 @@
-package in.sp.program.numbers;
+package in.problems.code.numbers;
 
 public class Prime {
 	

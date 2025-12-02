@@ -1,4 +1,4 @@
-package in.sp.program.numbers;
+package in.problems.code.numbers;
 
 public class FibonacciSeries {
 	public static void fibonacci(int count) {

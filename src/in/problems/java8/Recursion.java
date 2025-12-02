@@ -1,4 +1,4 @@
-package in.sp.program.java8;
+package in.problems.java8;
 
 import java.util.Scanner;
 

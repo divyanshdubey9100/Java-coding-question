@@ -1,4 +1,4 @@
-package in.sp.string;
+package in.problems.code.string;
 
 
 public class StringCustomReplace {
