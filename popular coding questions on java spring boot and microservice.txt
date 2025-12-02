@@ -21,7 +21,6 @@
 19. Find second largest number
 20. Find intersection of two arrays
 
----
 
 ### 🔹 Collections
 

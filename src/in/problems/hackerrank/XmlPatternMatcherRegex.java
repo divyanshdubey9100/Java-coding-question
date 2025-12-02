@@ -1,4 +1,4 @@
-package in.sp.program.hackerrank;
+package in.problems.hackerrank;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

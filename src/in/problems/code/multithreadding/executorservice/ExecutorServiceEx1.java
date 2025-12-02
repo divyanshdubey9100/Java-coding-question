@@ -1,4 +1,4 @@
-package in.sp.program.multithreadding.executorservice;
+package in.problems.code.multithreadding.executorservice;
 
 import java.util.Arrays;
 import java.util.List;
