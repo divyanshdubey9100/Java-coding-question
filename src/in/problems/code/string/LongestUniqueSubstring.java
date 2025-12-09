@@ -19,7 +19,7 @@ public class LongestUniqueSubstring {
     }
 
     public static void main(String[] args) {
-        String input = "missmarry";
+        String input = "HelloJava";
         System.out.println("Longest substring length: " + lengthOfLongestSubstring(input));
     }
 }
