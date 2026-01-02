@@ -4,7 +4,7 @@ import in.problems.code.commons.UserInput;
 
 public class SubArrayOfSumK {
 	
-	public static int subArraySum(int[] nums, int k) {
+	public static int subArraySum(int[] nums, int k) { 
 		int count =0;
 		for(int start=0;start < nums.length;start ++) {
 			int sum =0;

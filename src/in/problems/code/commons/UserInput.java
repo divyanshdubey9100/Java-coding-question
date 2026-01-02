@@ -121,4 +121,28 @@ public class UserInput {
 		}
 	}
 
+	public static List<String> listStringUserInput() {
+		Scanner sc = getUserInput();
+
+		System.out.print("Enter number of elements in the List<String>: ");
+		int size = sc.nextInt();
+		sc.nextLine(); // consume leftover newline
+
+		List<String> list = new java.util.ArrayList<>();
+
+		System.out.println("Enter " + size + " string values:");
+
+		for (int i = 0; i < size; i++) {
+			System.out.print("Element " + i + ": ");
+			list.add(sc.nextLine());
+		}
+
+		return list;
+	}
+
+	public static void traverseListOfStringsStream(List<String> list) {
+		System.out.println("Traversing List<String> (Stream):");
+		list.forEach(System.out::println);
+	}
+
 }
