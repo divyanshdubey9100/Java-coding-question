@@ -22,11 +22,13 @@ public class SortCustomObjects{
 	}
 
 	public static void main(String[] args) {
-		 List<Employee> employees = Arrays.asList(
-		            new Employee(3, "Alice", 60000),
-		            new Employee(1, "John", 50000),
-		            new Employee(2, "Bob", 70000)
-		        );
+		List<Employee> employees = Arrays.asList(
+		        new Employee(123,"Alice", 60000, "IT"),
+		        new Employee(300,"Bob", 50000, "HR"),
+		        new Employee(911,"Charlie", 70000, "IT"),
+		        new Employee(512,"David", 55000, "HR"),
+		        new Employee(789,"Eve", 65000, "Finance")
+		);
 		for(Employee e:doCustomSort(employees)) {
 			System.out.println(e);
 		}

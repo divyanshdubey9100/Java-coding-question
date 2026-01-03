@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 public class UserInput {
@@ -144,5 +145,4 @@ public class UserInput {
 		System.out.println("Traversing List<String> (Stream):");
 		list.forEach(System.out::println);
 	}
-
 }

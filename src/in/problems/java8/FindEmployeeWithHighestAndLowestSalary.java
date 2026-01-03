@@ -18,12 +18,14 @@ public class FindEmployeeWithHighestAndLowestSalary {
 	}
 	
 	public static void main(String[] args) {
-		List<Employee> team = Arrays.asList(
-	            new Employee(123, "Alice", 50000),
-	            new Employee(474, "Bob", 120000), // Max
-	            new Employee(987, "Charlie", 90000)
-	        );
-		System.out.println("Highest Paid Employee: "+getHighestPaidEmployee(team));
+		List<Employee> employees = Arrays.asList(
+		        new Employee(123,"Alice", 60000, "IT"),
+		        new Employee(300,"Bob", 50000, "HR"),
+		        new Employee(911,"Charlie", 70000, "IT"),
+		        new Employee(512,"David", 55000, "HR"),
+		        new Employee(789,"Eve", 65000, "Finance")
+		);
+		System.out.println("Highest Paid Employee: "+getHighestPaidEmployee(employees));
 	}
 	
 

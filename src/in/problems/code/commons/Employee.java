@@ -4,11 +4,13 @@ public class Employee {
 	    private int id;
 	    private String name;
 	    private double salary;
+	    private String department;
 
-	    public Employee(int i, String name, double salary) {
+	    public Employee(int i, String name, double salary,String department) {
 	        this.id = i;
 	        this.name = name;
 	        this.salary = salary;
+	        this.department=department;
 	    }
 
 		public int getId() {
@@ -34,11 +36,20 @@ public class Employee {
 		public void setSalary(double salary) {
 			this.salary = salary;
 		}
+		
+		
+
+		public String getDepartment() {
+			return department;
+		}
+
+		public void setDepartment(String department) {
+			this.department = department;
+		}
 
 		@Override
 		public String toString() {
-			return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+			return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", department=" + department + "]";
 		}
-
 	    
 	}
